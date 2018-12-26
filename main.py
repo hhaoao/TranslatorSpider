@@ -1,16 +1,9 @@
 # -*- coding: utf-8 -*-
 """
--------------------------------------------------
-   File Name：     main.py  
-   Description :  运行主函数
-   Author :       JHao
-   date：          2017/4/1
--------------------------------------------------
-   Change Activity:
-                   2017/4/1: 
--------------------------------------------------
+启动入口
+date:   2018/12/26
 """
-__author__ = 'JHao'
+__author__ = 'hhaoao'
 
 import sys
 from multiprocessing import Process
