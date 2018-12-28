@@ -3,6 +3,10 @@
 启动入口
 date:   2018/12/26
 """
+import os
+
+import pahk
+
 __author__ = 'hhaoao'
 
 import sys
@@ -33,5 +37,9 @@ def run():
 
 if __name__ == '__main__':
     from translate.translation import start_gui
+    ahk_code = os.path.abspath('.') + '/translate/bin/scripts/hotkey.ahk'
+    ahk_interpreter = pahk.Interpreter()
+    ahk_interpreter.execute_file(ahk_code)
     start_gui()
+#    start_gui()
     # run()

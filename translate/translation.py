@@ -480,7 +480,7 @@ def start_gui():
 
 
 if __name__ == '__main__':
-    # pass
+    pass
     # ahk_code = 'MsgBox Hello World!'
     # ahk_interpreter = pahk.Interpreter()
     # ahk_interpreter.execute_script(ahk_code)
@@ -494,10 +494,10 @@ if __name__ == '__main__':
 #     server = ShellExecute(0, 'open', server_lnk, '', '', 1)  # 后台启动
 #
 #     # 启动脚本
-    ahk_code = os.path.abspath('.') + '/bin/scripts/hotkey.ahk'
-    ahk_interpreter = pahk.Interpreter()
-    ahk_interpreter.execute_file(ahk_code)
-    start_gui()
+#     ahk_code = os.path.abspath('.') + '/bin/scripts/hotkey.ahk'
+#     ahk_interpreter = pahk.Interpreter()
+#     ahk_interpreter.execute_file(ahk_code)
+#     start_gui()
 #
 #     # 启动代理服务器
 #     # proxy_main.run()

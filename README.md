@@ -8,12 +8,30 @@
 
 想要解除字数限制，请自行下载本项目支持的proxy池,放置在`TranslatorSpider`目录下，见目录结构。
 
-注意：
+**注意**：
     开启proxy池得先开启项目支持的数据库
 
-### 安装指南
+## 安装指南
 
+clone本项目或者手动下载:
 
+```bash
+git clone https://github.com/hhaoao/TranslatorSpider
+```
+
+解压项目中的pahk_Win32w-0.1.0.7z,在pahk目录下执行命令进行安装：
+
+```bash
+python setup.py install
+```
+
+`cd`命令到`requirements.txt`目录下安装本项目所有依赖包：
+
+```bash
+pip install -r requirements.txt
+```
+
+至此，本项目就可以运行了，开始执行`main.py`开始你的愉快翻译之旅吧。
 
 ## 主要功能
 - 在输出框右键复制翻译内容。
