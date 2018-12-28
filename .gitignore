@@ -1,0 +1,15 @@
+# 忽略proxy_pool-master目录
+/proxy_pool-master
+
+# 忽略pycharm工作文件
+/.idea
+
+# 忽略python运行时生成的文件
+*/__pycache__
+*.pyc
+
+# 忽略测试性能文件
+restructure_time.py
+
+
+

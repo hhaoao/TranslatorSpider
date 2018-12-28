@@ -32,6 +32,6 @@ def run():
 
 
 if __name__ == '__main__':
-    from ui.translation import start_gui
+    from translate.translation import start_gui
     start_gui()
     # run()
