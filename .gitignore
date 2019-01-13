@@ -11,5 +11,8 @@
 # 忽略测试性能文件
 restructure_time.py
 
+# 忽略vim产生的临时文件
+*~
+
 
 
