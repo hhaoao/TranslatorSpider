@@ -6,7 +6,7 @@ Flask>=0.12.3
 googletrans==2.4.0
 idna==2.7
 itsdangerous==1.1.0
-Jinja2==2.10
+Jinja2==2.11.3
 lxml==3.7.2
 MarkupSafe==1.1.0
 pahk-Win32w==0.1.0
